@@ -1,6 +1,6 @@
 // Example JavaScript code to call the /api/send-email endpoint
 export const sendEmail = async (data) => {
-  const apiUrl = 'https://portfolio-alaa.onrender.com//api/send-email'; // Replace with your server URL if deployed
+  const apiUrl = 'https://portfolio-alaa.onrender.com/api/send-email'; // Replace with your server URL if deployed
   const emailData = {
     name: data.name,
     email: data.email,
